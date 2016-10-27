@@ -19,6 +19,7 @@ public class ReadInput {
 		mPay = (mRate * amount)/(1-(1/Math.pow(1 + mRate, year * 12)));
 		tPay = mPay * (year * 12);
 		
+		
 		System.out.printf("Loan Amount : %10.2f\n",amount);
 		System.out.printf("Number of Years : %10d\n",year);
 		System.out.println("Interest Rate\t\tMonthly Payment\t\tTotal Payment");
